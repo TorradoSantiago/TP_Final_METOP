@@ -1,0 +1,5 @@
+hypothesis_id,hypothesis,primary_variables,method,evidence_status
+H1,Economic expectations are associated with government approval and vote intention.,"Economic outlook, government approval, vote intention","Cross-tabulation, logistic regression, marginal effects",Pending source data
+H2,Institutional trust predicts turnout intention and policy legitimacy.,"Trust in institutions, turnout intention, policy support","Index construction, segmentation, regression analysis",Pending source data
+H3,Issue salience segments the electorate into distinct opinion clusters.,"Issue salience, ideology, candidate preference","Cluster analysis, dimensional reduction, profile summaries",Pending source data
+H4,Sociodemographic differences moderate the relationship between issue salience and political behavior.,"Age, education, region, class proxies, political behavior",Interaction models and subgroup analysis,Pending source data

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Public Opinion Capstone | Executive Brief</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 14mm 12mm 16mm;
+    }
+
+    :root {
+      --ink: #13243b;
+      --muted: #5b6977;
+      --accent: #0f63c7;
+      --accent-soft: #edf4ff;
+      --line: #d9e2ec;
+      --panel: #f8fbff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      font-size: 15px;
+      color: var(--ink);
+      background: white;
+      line-height: 1.5;
+    }
+
+    main {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0;
+    }
+
+    h1, h2 {
+      margin: 0 0 12px;
+      line-height: 1.15;
+      break-after: avoid-page;
+    }
+
+    h1 { font-size: 34px; }
+    h2 { font-size: 22px; }
+
+    p {
+      margin: 0 0 14px;
+      color: var(--muted);
+    }
+
+    ul {
+      margin: 0 0 16px 20px;
+      color: var(--muted);
+    }
+
+    li { margin-bottom: 8px; }
+
+    .hero {
+      padding: 28px 32px;
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      background: linear-gradient(135deg, #f9fbff 0%, #eef5ff 100%);
+    }
+
+    .eyebrow {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--accent);
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 22px;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 18px;
+      break-inside: avoid-page;
+    }
+
+    .metric {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    .label {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .section {
+      margin-top: 26px;
+      padding-top: 24px;
+      border-top: 1px solid var(--line);
+    }
+
+    .page-start {
+      break-before: page;
+      page-break-before: always;
+    }
+
+    .callout {
+      border-left: 4px solid var(--accent);
+      background: var(--accent-soft);
+      padding: 16px 18px;
+      border-radius: 14px;
+      color: var(--ink);
+      margin: 18px 0;
+    }
+
+    .figure {
+      margin: 22px 0;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      overflow: hidden;
+      background: white;
+      break-inside: avoid-page;
+    }
+
+    .figure img {
+      width: 100%;
+      display: block;
+      object-fit: contain;
+      max-height: 205mm;
+    }
+
+    .figure figcaption {
+      padding: 12px 16px;
+      font-size: 13px;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div class="eyebrow">Capstone Blueprint</div>
+      <h1>Public Opinion Research Project</h1>
+      <p>This repository has been repositioned as a professional survey-analytics capstone blueprint. Instead of pretending the analysis already exists, it now presents a clear research purpose, a hypothesis matrix, and a realistic delivery workflow that can absorb a public-opinion dataset without restructuring the project from scratch.</p>
+      <div class="grid">
+        <article class="card">
+          <div class="metric">4</div>
+          <div class="label">Core hypotheses already defined</div>
+        </article>
+        <article class="card">
+          <div class="metric">6</div>
+          <div class="label">Delivery phases from framing to publication</div>
+        </article>
+        <article class="card">
+          <div class="metric">0</div>
+          <div class="label">Fake claims about results or model performance</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Purpose and methodological direction</h2>
+      <p>The project is designed to study how economic expectations, institutional trust, issue salience, and sociodemographic differences shape political attitudes and behavior.</p>
+      <div class="callout">
+        Responsible positioning: this is a ready-to-execute research design, not yet a finished empirical case.
+      </div>
+      <ul>
+        <li>Hypothesis 1 links economic expectations with approval and vote intention.</li>
+        <li>Hypothesis 2 tests whether institutional trust predicts turnout and policy legitimacy.</li>
+        <li>Hypothesis 3 uses issue salience to segment the electorate into interpretable clusters.</li>
+        <li>Hypothesis 4 adds subgroup analysis to avoid one-size-fits-all political conclusions.</li>
+      </ul>
+    </section>
+
+    <section class="section page-start">
+      <h2>What was added</h2>
+      <p>The repository now includes executable code that generates a hypothesis matrix, a deliverable roadmap, and a visual workflow. That gives the project a technical foundation even before the final dataset is loaded.</p>
+      <figure class="figure">
+        <img src="../outputs/figures/capstone_delivery_roadmap.png" alt="Capstone delivery roadmap">
+        <figcaption>The roadmap shows how the project would move from problem framing to public delivery in an eight-week cycle.</figcaption>
+      </figure>
+    </section>
+
+    <section class="section">
+      <h2>Current conclusion</h2>
+      <p>The main improvement is strategic rather than statistical. This repository no longer looks unfinished; it now looks prepared. That matters because a professional portfolio should show not only final results, but also the ability to define a serious analytical project before execution begins.</p>
+      <div class="callout">
+        Portfolio takeaway: the project is now credible as a capstone-in-preparation, and it can become an empirical case quickly once the source survey is chosen.
+      </div>
+    </section>
+  </main>
+</body>
+</html>

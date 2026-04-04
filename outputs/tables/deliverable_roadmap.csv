@@ -1,0 +1,7 @@
+phase,weeks,deliverable
+Problem framing,1,Research question and hypothesis matrix
+Data acquisition,1,Survey source log and codebook review
+Cleaning and harmonization,2,Reusable processing scripts and clean dataset
+Core analysis,2,"Tables, models, and segmentation outputs"
+Narrative synthesis,1,Executive brief and presentation assets
+Publication layer,1,"Portfolio README, PDF brief, and public repository polish"
