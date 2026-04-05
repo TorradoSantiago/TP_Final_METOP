@@ -1,7 +1,9 @@
 phase,weeks,deliverable
-Problem framing,1,Research question and hypothesis matrix
-Data acquisition,1,Survey source log and codebook review
-Cleaning and harmonization,2,Reusable processing scripts and clean dataset
-Core analysis,2,"Tables, models, and segmentation outputs"
-Narrative synthesis,1,Executive brief and presentation assets
-Publication layer,1,"Portfolio README, PDF brief, and public repository polish"
+Problem framing,1,"Research question, scope, and theoretical memo"
+Source audit,1,"Dataset shortlist, codebook review, comparability note"
+Cleaning and harmonization,2,Reusable scripts and clean analysis sample
+Measurement design,1,"Indices, coding rules, and diagnostics"
+Core inference,2,Main regression tables and marginal effects
+Segmentation,1,Cluster profiles and audience narratives
+Robustness appendix,1,Sensitivity checks and alternative specifications
+Executive packaging,1,"Portfolio PDF, README, and presentation"

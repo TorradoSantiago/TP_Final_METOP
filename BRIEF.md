@@ -2,24 +2,34 @@
 
 ## In one sentence
 
-Survey-analytics capstone blueprint designed to become a professional public-opinion research case once the source dataset is loaded.
+Survey-analytics capstone blueprint designed as a serious public-opinion research architecture, with theory, measurement, test planning, and delivery sequencing already in place.
 
 ## What problem it addresses
 
-The repository is being positioned to study how economic expectations, institutional trust, issue salience, and sociodemographic differences shape political attitudes and behavior.
+The project is being positioned to study how economic expectations, institutional trust, issue salience, media environments, and sociodemographic differences shape political attitudes and behavior.
+
+## Why it is stronger now
+
+- It no longer stops at a topic statement.
+- It defines hypotheses, constructs, and operational proxies.
+- It includes a methodological test plan instead of only a narrative intention.
+- It explicitly documents validity threats and mitigation strategies.
+- It preserves the likely original final delivery as archive material.
 
 ## What a non-technical reader can see
 
 - A clear research purpose.
-- Testable hypotheses instead of vague intent.
-- A delivery roadmap that shows how the project would move from data to final presentation.
+- Concrete variables and model families.
+- A realistic workflow from source audit to final presentation.
+- Honest positioning: a blueprint, not fake finished results.
 
 ## What it demonstrates
 
 - Research design thinking.
 - Better project framing before execution starts.
-- Honesty about current limits without looking unfinished.
+- Methodological seriousness without overclaiming.
+- A stronger fit for academic, consulting, and survey-analytics positioning.
 
 ## Current conclusion
 
-This repository is not yet an empirical case, but it is no longer an empty shell. It now works as a professional blueprint that can receive a public-opinion dataset and turn into a strong final project with minimal restructuring.
+This repository is still a pre-empirical capstone, but it is no longer an empty shell. It now behaves like a professional research design that can turn into a strong empirical case with minimal restructuring once the final survey source is loaded.

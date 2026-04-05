@@ -1,0 +1,7 @@
+stage,test,purpose,tools,output
+Measurement,Reliability and dimensionality checks,"Validate scales for trust, ideology, and issue salience before modeling.","Cronbach alpha, polychoric PCA/factor analysis",Validated index specification
+Description,Weighted descriptive tables and uncertainty bands,Summarize the electorate before moving to causal or predictive claims.,"Survey weights, confidence intervals, subgroup dashboards",Clean descriptive baseline
+Association,Difference-in-means and non-parametric distribution tests,Check whether headline contrasts appear before fitting multivariable models.,"Mann-Whitney, Kruskal-Wallis, Spearman",First-pass evidence for each hypothesis
+Modeling,"Logit, ordered logit, multinomial logit","Model turnout, approval, and vote intention using interpretable coefficients.","Marginal effects, calibration plots, ROC/AUC where relevant",Core inferential results
+Segmentation,Latent or empirical clustering,Identify coherent voter blocs based on issue salience and trust patterns.,"K-means, hierarchical clustering, silhouette and stability metrics",Electorate segments with narrative profiles
+Robustness,"Alternative codings, reweighting, and sensitivity checks",Test whether the conclusions depend on specific operational choices.,"Bootstrap, propensity weights, alternative thresholds",Credibility appendix

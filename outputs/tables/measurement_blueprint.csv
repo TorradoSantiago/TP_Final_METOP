@@ -1,0 +1,6 @@
+domain,example_items,preferred_scale,analytic_use
+Economic outlook,"Personal finances, country trajectory, inflation expectations",Ordered categorical,Approval and vote models
+Institutional trust,"Confidence in courts, congress, presidency, electoral authority",Likert or ordinal composite,Turnout and legitimacy models
+Issue salience,"Main national problem, most urgent reform, policy priorities",Top choice plus ranked preferences,Segmentation and heterogeneity analysis
+Political behavior,"Turnout intention, vote intention, government approval","Binary, ordered, or multinomial",Outcome layer
+Exposure and context,"Media source, education, age, class proxy, geography",Categorical plus continuous controls,Moderation and robustness checks

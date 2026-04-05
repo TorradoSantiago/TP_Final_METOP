@@ -5,11 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Public Opinion Capstone | Executive Brief</title>
   <style>
-    @page {
-      size: A4;
-      margin: 14mm 12mm 16mm;
-    }
-
+    @page { size: A4; margin: 13mm 12mm 15mm; }
     :root {
       --ink: #13243b;
       --muted: #5b6977;
@@ -18,129 +14,32 @@
       --line: #d9e2ec;
       --panel: #f8fbff;
     }
-
     * { box-sizing: border-box; }
-
-    body {
-      margin: 0;
-      font-family: "Segoe UI", Arial, sans-serif;
-      font-size: 15px;
-      color: var(--ink);
-      background: white;
-      line-height: 1.5;
-    }
-
-    main {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 0;
-    }
-
-    h1, h2 {
-      margin: 0 0 12px;
-      line-height: 1.15;
-      break-after: avoid-page;
-    }
-
-    h1 { font-size: 34px; }
+    body { margin: 0; font-family: "Segoe UI", Arial, sans-serif; font-size: 14px; color: var(--ink); background: white; line-height: 1.55; }
+    main { max-width: 980px; margin: 0 auto; }
+    h1, h2, h3 { margin: 0 0 12px; line-height: 1.15; break-after: avoid-page; }
+    h1 { font-size: 31px; }
     h2 { font-size: 22px; }
-
-    p {
-      margin: 0 0 14px;
-      color: var(--muted);
-    }
-
-    ul {
-      margin: 0 0 16px 20px;
-      color: var(--muted);
-    }
-
-    li { margin-bottom: 8px; }
-
-    .hero {
-      padding: 28px 32px;
-      border: 1px solid var(--line);
-      border-radius: 24px;
-      background: linear-gradient(135deg, #f9fbff 0%, #eef5ff 100%);
-    }
-
-    .eyebrow {
-      font-size: 12px;
-      text-transform: uppercase;
-      letter-spacing: 0.16em;
-      color: var(--accent);
-      font-weight: 700;
-      margin-bottom: 10px;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 14px;
-      margin-top: 22px;
-    }
-
-    .card {
-      background: var(--panel);
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      padding: 18px;
-      break-inside: avoid-page;
-    }
-
-    .metric {
-      font-size: 28px;
-      font-weight: 700;
-      margin-bottom: 6px;
-    }
-
-    .label {
-      font-size: 13px;
-      color: var(--muted);
-    }
-
-    .section {
-      margin-top: 26px;
-      padding-top: 24px;
-      border-top: 1px solid var(--line);
-    }
-
-    .page-start {
-      break-before: page;
-      page-break-before: always;
-    }
-
-    .callout {
-      border-left: 4px solid var(--accent);
-      background: var(--accent-soft);
-      padding: 16px 18px;
-      border-radius: 14px;
-      color: var(--ink);
-      margin: 18px 0;
-    }
-
-    .figure {
-      margin: 22px 0;
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      overflow: hidden;
-      background: white;
-      break-inside: avoid-page;
-    }
-
-    .figure img {
-      width: 100%;
-      display: block;
-      object-fit: contain;
-      max-height: 205mm;
-    }
-
-    .figure figcaption {
-      padding: 12px 16px;
-      font-size: 13px;
-      color: var(--muted);
-      border-top: 1px solid var(--line);
-    }
+    h3 { font-size: 16px; }
+    p { margin: 0 0 12px; color: var(--muted); }
+    ul, ol { margin: 0 0 14px 22px; color: var(--muted); }
+    li { margin-bottom: 7px; }
+    .hero { padding: 26px 30px; border: 1px solid var(--line); border-radius: 24px; background: linear-gradient(135deg, #f9fbff 0%, #eef5ff 100%); }
+    .eyebrow { font-size: 12px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--accent); font-weight: 700; margin-bottom: 10px; }
+    .grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin-top: 18px; }
+    .card { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 16px; break-inside: avoid-page; }
+    .metric { font-size: 26px; font-weight: 700; margin-bottom: 6px; }
+    .label { font-size: 12px; color: var(--muted); }
+    .section { margin-top: 24px; padding-top: 22px; border-top: 1px solid var(--line); }
+    .page-start { break-before: page; page-break-before: always; }
+    .callout { border-left: 4px solid var(--accent); background: var(--accent-soft); padding: 15px 17px; border-radius: 14px; margin: 16px 0; color: var(--ink); }
+    .two-col { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 18px; align-items: start; }
+    .figure { margin: 18px 0; border: 1px solid var(--line); border-radius: 18px; overflow: hidden; background: white; break-inside: avoid-page; }
+    .figure img { width: 100%; display: block; object-fit: contain; max-height: 210mm; }
+    .figure figcaption { padding: 10px 14px; font-size: 12px; color: var(--muted); border-top: 1px solid var(--line); }
+    table { width: 100%; border-collapse: collapse; margin-top: 14px; font-size: 12.5px; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+    th { background: var(--accent-soft); }
   </style>
 </head>
 <body>
@@ -148,15 +47,19 @@
     <section class="hero">
       <div class="eyebrow">Capstone Blueprint</div>
       <h1>Public Opinion Research Project</h1>
-      <p>This repository has been repositioned as a professional survey-analytics capstone blueprint. Instead of pretending the analysis already exists, it now presents a clear research purpose, a hypothesis matrix, and a realistic delivery workflow that can absorb a public-opinion dataset without restructuring the project from scratch.</p>
+      <p>This repository is now positioned as a serious survey-analytics capstone blueprint. It does not fake finished empirical results. Instead, it shows the harder and more valuable part: a complete research architecture that can move from theory to measurement to inference once the source survey is finalized.</p>
       <div class="grid">
         <article class="card">
-          <div class="metric">4</div>
+          <div class="metric">6</div>
           <div class="label">Core hypotheses already defined</div>
         </article>
         <article class="card">
+          <div class="metric">5</div>
+          <div class="label">Theoretical constructs mapped to observable proxies</div>
+        </article>
+        <article class="card">
           <div class="metric">6</div>
-          <div class="label">Delivery phases from framing to publication</div>
+          <div class="label">Methodological test families already specified</div>
         </article>
         <article class="card">
           <div class="metric">0</div>
@@ -166,33 +69,204 @@
     </section>
 
     <section class="section">
-      <h2>Purpose and methodological direction</h2>
-      <p>The project is designed to study how economic expectations, institutional trust, issue salience, and sociodemographic differences shape political attitudes and behavior.</p>
+      <h2>Purpose and research base</h2>
+      <p>The capstone is designed to study how economic expectations, institutional trust, issue salience, media environments, and sociodemographic differences shape political attitudes and behavior. The point is not only to produce a set of charts. The point is to build a project that can support interpretable political-behavior modeling and electorate segmentation without confusing correlation, explanation, and prediction.</p>
+      <p>The blueprint matters because good public-opinion work begins before the first model. It begins by deciding what the core constructs are, which mechanisms matter, what counts as valid evidence, and which limitations must be stated up front.</p>
       <div class="callout">
-        Responsible positioning: this is a ready-to-execute research design, not yet a finished empirical case.
+        Responsible positioning: this is a ready-to-execute research design, not a finished empirical case. That honesty makes the project more credible, not less.
       </div>
-      <ul>
-        <li>Hypothesis 1 links economic expectations with approval and vote intention.</li>
-        <li>Hypothesis 2 tests whether institutional trust predicts turnout and policy legitimacy.</li>
-        <li>Hypothesis 3 uses issue salience to segment the electorate into interpretable clusters.</li>
-        <li>Hypothesis 4 adds subgroup analysis to avoid one-size-fits-all political conclusions.</li>
-      </ul>
     </section>
 
     <section class="section page-start">
-      <h2>What was added</h2>
-      <p>The repository now includes executable code that generates a hypothesis matrix, a deliverable roadmap, and a visual workflow. That gives the project a technical foundation even before the final dataset is loaded.</p>
+      <h2>Theoretical direction</h2>
+      <div class="two-col">
+        <div>
+          <p>The blueprint is built around six connected hypotheses. Together they describe a coherent story about how citizens form political evaluations and how those evaluations translate into behavior.</p>
+          <ol>
+            <li>Economic expectations shape approval and vote intention through retrospective voting logic.</li>
+            <li>Institutional trust predicts turnout intention and policy legitimacy.</li>
+            <li>Issue salience organizes the electorate into distinct segments.</li>
+            <li>Sociodemographic differences moderate how issue salience maps into political behavior.</li>
+            <li>Candidate evaluation depends on both valence traits and ideological proximity.</li>
+            <li>Media environments shape expectations and trust.</li>
+          </ol>
+        </div>
+        <div class="card">
+          <h3>Key constructs</h3>
+          <ul>
+            <li>Retrospective voting</li>
+            <li>Institutional trust</li>
+            <li>Issue salience</li>
+            <li>Political behavior</li>
+            <li>Information environment</li>
+          </ul>
+        </div>
+      </div>
+      <p>The theoretical contribution of the blueprint is that it treats these constructs as linked mechanisms rather than isolated variables. Economic expectations matter because they affect approval. Trust matters because it changes participation and legitimacy. Issue salience matters because it organizes how citizens interpret politics. The project is therefore designed as an integrated explanation of political behavior rather than a loose collection of survey indicators.</p>
+    </section>
+
+    <section class="section page-start">
+      <h2>Measurement proposal</h2>
+      <p>A major improvement in the repository is the measurement layer. The project now specifies not only what it wants to study, but how each construct should be observed in a real survey instrument.</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Domain</th>
+            <th>Typical items</th>
+            <th>Preferred scale</th>
+            <th>Analytic role</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Economic outlook</td>
+            <td>Personal finances, country trajectory, inflation expectations</td>
+            <td>Ordered categorical</td>
+            <td>Approval and vote models</td>
+          </tr>
+          <tr>
+            <td>Institutional trust</td>
+            <td>Confidence in congress, courts, presidency, electoral authority</td>
+            <td>Likert or ordinal composite</td>
+            <td>Turnout and legitimacy models</td>
+          </tr>
+          <tr>
+            <td>Issue salience</td>
+            <td>Main national problem, urgent reform, policy priorities</td>
+            <td>Top choice plus ranked preferences</td>
+            <td>Segmentation and heterogeneity analysis</td>
+          </tr>
+          <tr>
+            <td>Political behavior</td>
+            <td>Turnout intention, vote intention, government approval</td>
+            <td>Binary, ordered, or multinomial</td>
+            <td>Outcome layer</td>
+          </tr>
+          <tr>
+            <td>Exposure and context</td>
+            <td>Media source, education, age, geography, class proxy</td>
+            <td>Categorical plus continuous controls</td>
+            <td>Moderation and robustness checks</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>This makes the capstone much more concrete. Instead of saying that trust or salience are important, the repository now explains which items would operationalize those ideas and what analytic job each one would do.</p>
+    </section>
+
+    <section class="section page-start">
+      <h2>Methodological test plan</h2>
+      <p>The project is now much more technical because it includes a staged methodology rather than a vague promise of future analysis. Each stage has a purpose, a method family, and an expected deliverable.</p>
+      <figure class="figure">
+        <img src="../outputs/figures/capstone_test_strategy.png" alt="Capstone test strategy">
+        <figcaption>The methodological plan moves from measurement checks to descriptive analysis, inferential models, segmentation, and robustness. That sequencing prevents the final capstone from becoming an unstructured notebook.</figcaption>
+      </figure>
+      <table>
+        <thead>
+          <tr>
+            <th>Stage</th>
+            <th>Method family</th>
+            <th>Purpose</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Measurement</td>
+            <td>Reliability and dimensionality checks</td>
+            <td>Validate scales for trust, ideology, and salience before using them in models.</td>
+          </tr>
+          <tr>
+            <td>Description</td>
+            <td>Weighted descriptive analysis</td>
+            <td>Establish a credible portrait of the electorate before moving into inference.</td>
+          </tr>
+          <tr>
+            <td>Association</td>
+            <td>Non-parametric contrasts</td>
+            <td>Check whether headline differences exist before full multivariable models.</td>
+          </tr>
+          <tr>
+            <td>Inference</td>
+            <td>Logit, ordered logit, multinomial models</td>
+            <td>Estimate interpretable effects for turnout, approval, and vote intention.</td>
+          </tr>
+          <tr>
+            <td>Segmentation</td>
+            <td>Clustering and dimensional reduction</td>
+            <td>Identify coherent voter blocs and narrative profiles.</td>
+          </tr>
+          <tr>
+            <td>Robustness</td>
+            <td>Alternative codings and sensitivity checks</td>
+            <td>Prevent the final conclusions from depending on a single operational choice.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section page-start">
+      <h2>Validity and limits</h2>
+      <p>The repository now includes a validity matrix because a good capstone is not only about methods; it is about what can go wrong. That is especially important in survey analytics, where construct validity, sampling issues, and overinterpretation are constant risks.</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Risk</th>
+            <th>Main threat</th>
+            <th>Mitigation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Construct validity</td>
+            <td>Trust or ideology may be badly measured by single items.</td>
+            <td>Use reliability checks and transparent coding rules before index construction.</td>
+          </tr>
+          <tr>
+            <td>Selection bias</td>
+            <td>Low-response groups may be underrepresented.</td>
+            <td>Use survey weights and compare weighted margins with public benchmarks.</td>
+          </tr>
+          <tr>
+            <td>Model dependence</td>
+            <td>Conclusions may hinge on thresholds or link functions.</td>
+            <td>Report alternative codings and specification checks in an appendix.</td>
+          </tr>
+          <tr>
+            <td>Overinterpretation</td>
+            <td>Correlational results may be presented as causal.</td>
+            <td>State scope conditions clearly and separate explanation from prediction.</td>
+          </tr>
+          <tr>
+            <td>Temporal instability</td>
+            <td>Campaign events can move attitudes rapidly.</td>
+            <td>Anchor conclusions to fieldwork dates and flag where repeated measurement is needed.</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="callout">
+        This section is strategically important. It shows that the project is not only ambitious, but disciplined about what it can and cannot claim.
+      </div>
+    </section>
+
+    <section class="section page-start">
+      <h2>Execution roadmap</h2>
+      <p>The capstone also includes a realistic production plan. This is useful in both academic and professional settings because it shows that the project can move from concept to delivery without collapsing into an endless notebook.</p>
       <figure class="figure">
         <img src="../outputs/figures/capstone_delivery_roadmap.png" alt="Capstone delivery roadmap">
-        <figcaption>The roadmap shows how the project would move from problem framing to public delivery in an eight-week cycle.</figcaption>
+        <figcaption>The roadmap sequences the project from framing and source audit through inference, robustness, and executive packaging.</figcaption>
       </figure>
+      <figure class="figure">
+        <img src="../outputs/figures/capstone_research_architecture.png" alt="Capstone research architecture">
+        <figcaption>The architecture view makes the logic explicit: theory leads to measurement, measurement leads to inference, and inference leads to a professional delivery layer.</figcaption>
+      </figure>
+      <p>The execution sequence is now strong enough that the repository can function as both a capstone proposal and a portfolio artifact. Once the final survey source is selected, the structure will already exist for coding, testing, modeling, and presenting the results.</p>
     </section>
 
     <section class="section">
-      <h2>Current conclusion</h2>
-      <p>The main improvement is strategic rather than statistical. This repository no longer looks unfinished; it now looks prepared. That matters because a professional portfolio should show not only final results, but also the ability to define a serious analytical project before execution begins.</p>
+      <h2>Conclusion</h2>
+      <p>The main improvement is strategic as well as technical. This repository no longer looks like an unfinished idea. It now looks like a research design with theoretical anchors, measurable constructs, a test plan, and explicit safeguards against bad inference.</p>
+      <p>That makes it valuable even before empirical execution. It demonstrates the capacity to define a serious analytical project, identify the right methods, and structure delivery in a way that is credible to professors, employers, and collaborators alike.</p>
       <div class="callout">
-        Portfolio takeaway: the project is now credible as a capstone-in-preparation, and it can become an empirical case quickly once the source survey is chosen.
+        Portfolio takeaway: the project is now credible as a capstone-in-preparation because it shows how the final empirical work will be built, tested, and defended, not just what topic it wants to cover.
       </div>
     </section>
   </main>

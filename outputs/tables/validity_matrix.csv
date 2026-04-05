@@ -1,0 +1,6 @@
+risk,threat,mitigation
+Construct validity,Survey items may not map cleanly onto trust or ideology.,Document coding decisions and test internal consistency before index construction.
+Selection bias,Nonresponse and low-propensity groups may be underrepresented.,"Use weights, compare sample margins to public benchmarks, and run weighted/unweighted contrasts."
+Model dependence,Conclusions may change with coding thresholds or link functions.,Report alternative specifications and keep a robustness appendix.
+Overinterpretation,Correlational results may be framed as causal.,State scope conditions clearly and separate explanatory from predictive claims.
+Temporal instability,Campaign dynamics can change quickly around major events.,Anchor findings to survey fieldwork dates and flag where repeat measurement is needed.
