@@ -3,6 +3,7 @@
 Public-opinion analytics capstone repositioned as a serious research blueprint rather than an empty starter repository. The project is now designed to show theoretical clarity, methodological sequencing, and credible deliverables even before the final survey data are loaded.
 
 Start with:
+- `capstone_blueprint.ipynb`
 - `BRIEF.md`
 - `docs/capstone-brief.html`
 - `docs/capstone-brief.pdf`
